@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Discount {
     public static void main(String[] args) {
+        // scanner to accept the input
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the purchase amount: ");
         double purchaseAmount = scan.nextDouble();
+        // method call or invocation
         findFinalPay(purchaseAmount);
     }
 

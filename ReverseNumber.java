@@ -14,7 +14,9 @@ public class ReverseNumber {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        // scanner input
         int num = scan.nextInt();
+        // method call or invocation
         reverseNum(num);
     }
 
